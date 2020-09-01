@@ -91,6 +91,7 @@ counter(frase);
 //ejercicio 10
 document.write("ejercicio 10"+"<br/>");
 
+
 var frase = prompt("Digite la frase");
 counter(frase);
  
