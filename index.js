@@ -55,7 +55,7 @@ if(num1 > num2 ){
     }else{
         document.write("El numero mayor es: "+num3);
     }
-*/    
+    
 //ejercicio 8
 document.write("ejercicio 8"+"<br/>");
 var num1 = prompt("Digite numero 1");
@@ -64,6 +64,47 @@ var mod = num1 % 2;
 if(mod == 0){
     document.write("El número: "+num1+" es divisible por 2");
 }else{
-    document.write("El número: "+num1+" N O es divisible por 2");
+    document.write("El número: "+num1+" NO es divisible por 2");
 }
 
+
+//ejercicio 9
+document.write("ejercicio 9"+"<br/>");
+
+var frase = prompt("Digite la frase");
+counter(frase);
+ 
+ function counter(str){
+    var vocals = 'aA';
+    var vcontador = 0;
+    
+    for(var i=0; i< str.length; i++){
+        if(vocals.indexOf(str[i]) !== -1){
+            vcontador += 1;
+
+        }
+    }
+    document.write("la palabra es: "+ frase+"<br/>");
+    document.write("la palabra tiene "+vcontador+" letras a.");
+ }
+
+//ejercicio 10
+document.write("ejercicio 10"+"<br/>");
+
+var frase = prompt("Digite la frase");
+counter(frase);
+ 
+ function counter(str){
+    var vocals = 'aeiouAEIOU';
+    var vcontador = 0;
+    
+    for(var i=0; i< str.length; i++){
+        if(vocals.indexOf(str[i]) !== -1){
+            vcontador += 1;
+
+        }
+    }
+    document.write("la palabra es: "+ frase+"<br/>");
+    document.write("la palabra tiene "+vcontador+" Vocales.");
+ }
+ */
