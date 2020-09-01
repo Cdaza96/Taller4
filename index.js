@@ -87,7 +87,7 @@ counter(frase);
     document.write("la palabra es: "+ frase+"<br/>");
     document.write("la palabra tiene "+vcontador+" letras a.");
  }
-
+ */
 //ejercicio 10
 document.write("ejercicio 10"+"<br/>");
 
@@ -107,4 +107,4 @@ counter(frase);
     document.write("la palabra es: "+ frase+"<br/>");
     document.write("la palabra tiene "+vcontador+" Vocales.");
  }
- */
+
