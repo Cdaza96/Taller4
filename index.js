@@ -64,6 +64,6 @@ var mod = num1 % 2;
 if(mod == 0){
     document.write("El número: "+num1+" es divisible por 2");
 }else{
-    document.write("El número: "+num1+" NO es divisible por 2");
+    document.write("El número: "+num1+" N O es divisible por 2");
 }
 
