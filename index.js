@@ -130,7 +130,7 @@ counter(frase);
 
 
 
-//ejercicio 12 Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son vocales
+//ejercicio 12 Escribe un programa que pida  una frase y escriba cuántas de las letras que tiene son vocales
 document.write("ejercicio 10"+"<br/>");
 
 var frase = prompt("Digite la frase");
