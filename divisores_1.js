@@ -1,3 +1,4 @@
+// Escribir un programa que escriba en pantalla los divisores de un número dado
 var num = prompt("digite el numero");
 
 divisor(num);

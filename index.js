@@ -1,4 +1,4 @@
-/*
+
 //ejercicio 1 Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
 alert("hello world");
 
@@ -156,6 +156,5 @@ counter(frase,'uU');
     
     document.write("la palabra tiene "+vcontador+" de la vocal "+ vlo+ "</br>");
  }
-*/
 
 

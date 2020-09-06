@@ -1,18 +1,18 @@
-var num1 = prompt("digite el numero");
-var num2 = prompt("digite el numero");
-var bajo;
-var index; 
+//Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+
+
+var num1 = prompt("Escribe número 1");
+var num2 = prompt("Escribe número 2");
+var menor;
 
 if (num1 < num2) {
-    bajo = num1;
-}else{
-    bajo = num2;
+    menor = num1;
+} else {
+    menor = num2;
 }
-
-for (index = 2; index < bajo / 2; index++) {
-    if (num1 % i === 0 && num2 % i === 0) {
-        document.write(index, ",");
+    for (i=2; i < menor / 2; i++) {
+        if (num1 % i === 0 && num2 % i === 0) {
+        document.write(i,", ");
+        }
     }
-            
-}
 
