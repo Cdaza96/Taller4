@@ -1,4 +1,4 @@
-/*
+
 //ejercicio 1 Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”.
 alert("hello world");
 
@@ -127,7 +127,7 @@ counter(frase);
 
 
 //ejercicio 12 Escribe un programa que pida  una frase y escriba cuántas de las letras que tiene son vocales
-document.write("ejercicio 10"+"<br/>");
+document.write("ejercicio 12"+"<br/>");
 
 var frase = prompt("Digite la frase");
 document.write("la palabra es: "+ frase+"<br/>");
@@ -153,6 +153,7 @@ counter(frase,'uU');
     document.write("la palabra tiene "+vcontador+" de la vocal "+ vlo+ "</br>");
  }
 
+
  //ejercicio 13 Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
 
 document.write("ejercicio 13"+"<br/>");
@@ -169,9 +170,11 @@ function divisible(num){
         }
 }
 
+
 //ejercicio 14 //Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
 
 document.write("ejercicio 14"+"<br/>");
+var num = prompt("Digite número");
 divisible(num);
 
 
@@ -195,6 +198,8 @@ function divisible(num){
         }
 }
 
+
+
 //ejercicio 15  Escribir un programa que escriba en pantalla los divisores de un número dado
 
 var num = prompt("digite el numero");
@@ -209,6 +214,8 @@ function divisor(num){
             
         }
 }
+
+
 
 //ejercicio 16 Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 
@@ -228,6 +235,7 @@ if (num1 < num2) {
     }
 
 
+
 //ejercicio 17 Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
 var n1 = prompt("Escribe un número");
@@ -243,4 +251,4 @@ document.write("El número es primo");
 } else {
 document.write("El número no es primo");
 }
-*/
+
