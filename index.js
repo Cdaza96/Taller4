@@ -22,7 +22,7 @@ document.write("hola "+nombre+"<br/>");
 document.write("ejercicio 5"+"<br/>");
 var num1 = prompt("Digite número 1");
 var num2 = prompt("Digite número 2");
-document.write("El resultado es: "+(parseInt(num1)+parseInt(num2));
+document.write("El resultado es: "+ ( parseInt(num1)+parseInt(num2)));
 
 
 //ejercicio 6 Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
